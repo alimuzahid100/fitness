@@ -1,0 +1,493 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 0px;
+	background-color: #fd634e;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+/******************************************
+**		header-section css code start 	 **
+*******************************************/
+.header-section{
+	width: 100%;
+	background: url(../images/hero.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.header-section .bg-light{
+	width: 100%;
+	padding: 10px 0px;
+	background-color: transparent !important;
+	padding: 25px 0px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+    margin-left: 12px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    font-size: 16px;
+    color:#fd634e;
+}
+
+.header-section .claim{
+	width: 100%;
+	padding: 150px 0px 150px;
+	margin-top: 130px;
+}
+
+.header-section .claim .headline{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin: 160px 0px 38px 17px;
+}
+
+.header-section .claim .headline span{
+	color: #9bc029;
+
+}
+
+.header-section .claim .kicker{
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-left: 155px;
+}
+
+.header-section .claim .kicker span{
+	color:#fd634e;
+}
+
+/**************************************************
+**		featured section code start	 			 **
+***************************************************/
+
+.featured{
+	width: 100%;
+	background-color: #a2ca28;
+	padding: 80px 0px;
+	
+}
+
+.featured h2{
+	font-size: 25px;
+	color: #fff;
+	margin: 18px 0px;
+}
+
+.featured p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.featured a{
+	font-size: 14px;
+	color: #fff;
+}
+
+.featured a .fa{
+	margin-left: 5px;
+}
+
+/* fitness-first code start */
+
+.fitness-first{
+	width: 100%;
+	background-color: #a2ca28;
+	padding: 20px 0px 0px;
+}
+.fitness-first .img-bg{
+	width: 100%;
+	position: relative;
+	/* margin:0 auto; */
+}
+
+.fitness-first .img-bg .text-lockup{
+	width: 100%;
+	
+	/* margin:0 auto; */
+}
+
+.fitness-first .img-bg .text-lockup h3{
+	font-size: 15px;
+	line-height: 25px;
+	color: #fd6d5a;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 60px;
+	left: 122px;
+}
+
+.fitness-first .img-bg .text-lockup h2{
+		font-size: 32px;
+		line-height: 42px;
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 2px;
+		color: #a2ca28;
+		position: absolute;
+		top: 83px;
+		left: 72px;
+}
+
+.fitness-first .img-bg .text-lockup img {
+    position: absolute;
+    top: 135px;
+    left: 170px;
+}
+
+.fitness-first .img-bg .text-lockup p {
+    width: 24%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f787d;
+    position: absolute;
+    top: 173px;
+    left: 54px;
+}
+
+.fitness-first .img-bg .text-lockup a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #a2ca28;
+    position: absolute;
+    top: 280px;
+    left: 151px;
+}
+
+.fitness-first .img-bg .second-text-lockup{
+	width: 100%;
+
+}
+
+.fitness-first .img-bg .second-text-lockup h3 {
+    font-size: 15px;
+    line-height: 25px;
+    color: #fd6d5a;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 160px;
+    bottom: 289px;
+}
+
+.fitness-first .img-bg .second-text-lockup h2{
+		font-size: 32px;
+		line-height: 42px;
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 2px;
+		color: #a2ca28;
+		position: absolute;
+		right: 100px;
+    	bottom: 250px;
+}
+
+.fitness-first .img-bg .second-text-lockup img {
+    position: absolute;
+    right: 174px;
+    bottom: 226px;
+}
+
+.fitness-first .img-bg .second-text-lockup p {
+    width: 24%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f787d;
+    position: absolute;
+    right: 48px;
+    bottom: 97px;
+}
+
+.fitness-first .img-bg .second-text-lockup a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #a2ca28;
+    position: absolute;
+    right: 143px;
+    bottom: 72px;
+}
+
+/* .lifestyle code start */
+
+.lifestyle{
+	width: 100%;
+}
+.lifestyle .img-bg{
+	width: 100%;
+	position: relative;
+}
+
+.lifestyle .img-bg .text-lockup{
+	width: 100%;
+	
+	/* margin:0 auto; */
+}
+
+.lifestyle .img-bg .text-lockup h3{
+	font-size: 15px;
+	line-height: 25px;
+	color: #fd6d5a;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 350px;
+	left: 38px;
+}
+
+.lifestyle .img-bg .text-lockup h2{
+	font-size: 32px;
+	line-height: 42px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #a2ca28;
+	position: absolute;
+	top: 370px;
+	left: 38px;
+}
+
+.lifestyle .img-bg .text-lockup p {
+    width: 24%;
+    font-size: 14px;
+    line-height: 24px;
+	color: #6f787d;
+	text-align: left;
+    position: absolute;
+    top: 428px;
+    left: 38px;
+}
+
+.lifestyle .second-text-lockup{
+	width: 100%;
+}
+
+.lifestyle .img-bg .second-text-lockup h2{
+	font-size: 32px;
+	line-height: 42px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #fff;
+	position: absolute;
+	top: 370px;
+	left: 435px;
+}
+
+.lifestyle .img-bg .second-text-lockup p {
+    width: 49%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 428px;
+    left: 435px;
+}
+
+.lifestyle .img-bg .Third-text-lockup{
+	width: 100%;
+	
+}
+
+.lifestyle .img-bg .Third-text-lockup h3{
+	font-size: 15px;
+	line-height: 25px;
+	color: #fd6d5a;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	position: absolute;
+	left: 38px;
+	bottom: 218px;
+}
+
+.lifestyle .img-bg .Third-text-lockup h2{
+	font-size: 32px;
+	line-height: 42px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #a2ca28;
+	position: absolute;
+	left: 38px;
+	bottom: 182px;
+}
+
+.lifestyle .img-bg .Third-text-lockup p {
+    width: 52%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f787d;
+    text-align: left;
+    position: absolute;
+    left: 38px;
+    bottom: 85px;
+}
+
+.lifestyle .img-bg .Forth-text-lockup{
+	width: 100%;
+	
+}
+
+.lifestyle .img-bg .Forth-text-lockup h3{
+	font-size: 15px;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	position: absolute;
+	right: 215px;
+	bottom: 218px;
+}
+
+.lifestyle .img-bg .Forth-text-lockup h2{
+		font-size: 32px;
+		line-height: 42px;
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 2px;
+		color: #fff;
+		position: absolute;
+		right: 112px;
+		bottom: 182px;
+}
+
+.lifestyle .img-bg .Forth-text-lockup p {
+    width: 24%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    right: 72px;
+    bottom: 58px;
+}
+
+.simple{
+	width: 100%;
+	background: url(../images/footer.png) center top no-repeat;
+	background-size: cover;
+	padding: 150px 0px;
+}
+
+.simple .closing-claim{
+	width: 100%;
+	text-align: center;
+	padding: 90px 0px 180px;
+}
+
+.simple .closing-claim h1{
+	font-size:46px;
+	color: #fff;
+	margin-bottom: 25px;
+
+}
+
+.simple .closing-claim p{
+	width: 37%;
+	margin: 0 auto;
+	font-size:14px;
+	line-height: 24px;
+	color: #fff; 
+	padding: 0px 0px 150px;
+
+}
+
+.footer-section{
+	width: 100%;
+	background-color: #0d1119;
+	padding:40px 0px 180px;
+}
+
+.footer-section .resource{
+	width: 100%;
+}
+
+.footer-section .resource h6{
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-section .resource p{
+	font-size: 14px;
+	line-height: 24px;
+    color: #7b8f9f;
+}
+
+.footer-section .about{
+	width: 100%;
+}
+
+.footer-section .about h6{
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-section .about p{
+	font-size: 14px;
+	line-height: 24px;
+    color: #7b8f9f;
+}
+
+.footer-section .stay{
+	width: 100%;
+}
+
+.footer-section .stay h6{
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-section .stay ul{
+	display: block;
+	margin:0;
+	padding: 0;
+}
+
+.footer-section .stay ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.footer-section .btn-primary{
+	background-color: #a2ca28;
+	border: 1px solid #a2ca28;
+}
+
+.footer-section .btn-primary i{
+	margin-left: 5px;
+}
